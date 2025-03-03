@@ -15,6 +15,7 @@ function MatchTracker() {
     try {
       const response = await axios.get('https://app.ftoyd.com/fronttemp-service/fronttemp');
       setData(response.data.data.matches);
+      console.log(response.data.data.matches);
       setError();
       setIsLoading(false);
     } catch (error) {
