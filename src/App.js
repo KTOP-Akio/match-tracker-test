@@ -107,6 +107,7 @@ const ErrorSection = styled.div`
   font-weight: 500;
   font-size: 18px;
   line-height: 21.78px;
+  gap: 10px;
 `
 const DetailSection = styled.div`
   width: 100%;
